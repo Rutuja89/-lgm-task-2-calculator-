@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    
+    <title>Simple Calculator</title>
+    <link rel="stylesheet" href="calk.css">
+</head>
+
+<body>
+    <h1>Calculator using html,css,javacript</h1>
+
+<div class="theme-switch-wrapper">
+    
+    <label for="checkbox" class="theme-switch">
+        <input type="checkbox" id="checkbox"/>
+        <div class="slider round">
+        </div>
+    </label>
+
+    <label id="label">DARK MODE:OFF</label>
+</div>
+
+    <div id="calculator">
+        <header>
+            <label id="previous"></label>
+            <div id="current">
+                <div id="current-value">0</div>
+            </div>
+        </header>
+
+        <div id="keys">
+            <button id="all_clear">AC</button>
+            <button id="clear">C</button>
+            <button id="plus-minus">+/-</button>
+
+            <button class="numbers">1</button>
+            <button class="numbers">2</button>
+            <button class="numbers">3</button>
+            <button class="operators">/</button>
+
+            <button class="numbers">4</button>
+            <button class="numbers">5</button>
+            <button class="numbers">6</button>
+            <button class="operators">*</button>
+
+            <button class="numbers">7</button>
+            <button class="numbers">8</button>
+            <button class="numbers">9</button>
+            <button class="operators">+</button>
+
+            <button class="numbers">0</button>
+            <button class="numbers">.</button>
+            <button class="numbers">=</button>
+            <button class="operators">-</button>
+        </div>
+    </div>
+
+    <script src="calk.js"></script>
+    
+</body>
+
+</html>
